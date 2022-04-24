@@ -14,7 +14,7 @@ $(function() {
     let form = layui.form
     let layer = layui.layer
     // 通过 form.verify()函数自定义校验规则
-    form.verify({
+    form.verify({ 
         // 定义了一个 pwd 的校验规则
         pwd: [
             /^[\S]{6,12}$/,
